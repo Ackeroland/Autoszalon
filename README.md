@@ -17,4 +17,6 @@
 - Kezdőlap
 - Elektromos modellekben besegít
 - Technológia és innováció
-Április 26-ig végezni kell!!
+
+
+#Április 26-ig végezni kell!!
