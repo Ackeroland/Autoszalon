@@ -7,6 +7,13 @@
     background-color: black;
 }
 
-.alahuzas{
-    font-weight: 100;
-}
+nav ul li {
+    font-weight: normal;
+  }
+  
+.active{
+    font-weight: normal;
+  }
+.active:hover{
+    font-weight: bold;
+  }
