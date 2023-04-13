@@ -17,3 +17,8 @@ nav ul li {
 .active:hover{
     font-weight: bold;
   }
+
+.kartyak{
+  margin: 5px;
+  text-align: justify;
+}
