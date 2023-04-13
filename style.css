@@ -22,3 +22,10 @@ nav ul li {
   margin: 5px;
   text-align: justify;
 }
+.csik{
+  border: none;
+  color: white;
+  opacity: 1;
+  height: 1px;
+  background-color: white;
+}
