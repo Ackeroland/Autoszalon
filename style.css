@@ -32,14 +32,26 @@ nav ul li {
 }
 
 .card1{
-  width: 60%; 
+  width: 70%; 
   margin: auto; 
-  margin-top: 5%; 
-  margin-bottom: 5%; 
+  margin-top: 3%; 
   background-color: gray; 
   padding-left: 5%; 
   padding-right: 5%;
   border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-
+.card2{
+  width: 40%; 
+  margin: auto; 
+  margin-top: 2%; 
+  margin-bottom: 2%; 
+  background-color: gray; 
+  padding-left: 1%; 
+  padding-right: 1%;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
