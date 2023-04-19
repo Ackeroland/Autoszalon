@@ -48,12 +48,31 @@
       </div>
       <div class="card2">
         <div class="mb-3" style="width: 70%; border-color: white;">
-          <h1>Regisztráció:</h1>
+          <h1>Mercedes Me Regisztráció:</h1>
           <label for="exampleFormControlInput1" class="form-label"></label>
           <label for="exampleFormControlInput1" class="form-label"></label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@students.jedlik.eu">
           <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="password">
-          <a href="regisztrácio.html" class="btn bg-black text-white">Kész</a>
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Kész</button>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Sikeres Regisztráció!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Köszönjük hogy regisztrált!!<br>
+              <img style="width: 100%;" src="image.png" alt="easteregg">
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><a style="color: white;" href="szervíz.html">Vissza</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
         </div>
       </div>
 
