@@ -19,8 +19,9 @@ nav ul li {
   }
 
 .kartyak{
-  margin: 5px;
-  text-align: justify;
+  margin-right: 5px;
+  text-align: left;
+  border-radius: 20px;
 }
 .csik{
   border: none;
@@ -40,3 +41,5 @@ nav ul li {
   padding-right: 5%;
   border-radius: 30px;
 }
+
+
