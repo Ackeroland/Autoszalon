@@ -84,3 +84,52 @@ margin-bottom: 5%;
 .pixel{
   width: 42px;
 }
+
+.centertext {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttononmain{
+  font-weight: bold;
+  color:black;
+  background-color: gray;
+  border-radius: 17px;
+  padding: 4px;
+  transition: background-color 1s, color 1s ;
+}
+
+.buttononmain:hover{
+  background-color: rgb(66, 98, 240);
+  color: white;
+}
+
+.movie{
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.line{
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+}
+
+.lineleft{
+  border-left: solid 2px black;
+}
+
+.lineright{
+  border-right: solid 2px black;
+}
+
+.lineleftwhite{
+  border-left: solid 2px white;
+}
