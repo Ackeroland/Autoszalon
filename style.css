@@ -162,6 +162,15 @@ h5{
   font-size: 15pt;
 }
 
+.bordernone{
+  border: none;
+}
+
+.link2{
+  color: black;
+  text-decoration: none;
+}
+ 
 button{
   background-color: black;
   color: white;
