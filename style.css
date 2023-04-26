@@ -3,6 +3,11 @@
     width: 70px;
 }
 
+.kep2{  
+  height: 800px;
+  
+}
+
 .hatter{
     background-color: black;
 }
@@ -115,7 +120,7 @@ margin-bottom: 5%;
 }
 
 .buttononmain:hover{
-  background-color: rgb(66, 98, 240);
+  background-color: rgb(23, 82, 74);
   color: white;
 }
 
@@ -139,4 +144,8 @@ margin-bottom: 5%;
 
 .lineleftwhite{
   border-left: solid 2px white;
+}
+
+a{
+  
 }
