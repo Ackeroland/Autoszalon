@@ -161,3 +161,9 @@ h4{
 h5{
   font-size: 15pt;
 }
+
+button{
+  background-color: black;
+  color: white;
+  border: none;
+}
