@@ -38,28 +38,26 @@ nav ul li {
 }
 
 .card1{
-  width: 70%; 
+  width: 100%; 
   margin: auto; 
-  margin-top: 3%; 
-  background-color: gray; 
+  margin-top: 1%; 
   padding-left: 5%; 
   padding-right: 5%;
-  border-radius: 30px;
-  padding-top: 20px;
   padding-bottom: 20px;
+  border-color: black;
 }
 
 .card2{
-  width: 40%; 
+  width: 50%; 
   margin: auto; 
   margin-top: 2%; 
   margin-bottom: 2%; 
-  background-color: gray; 
   padding-left: 1%; 
   padding-right: 1%;
-  border-radius: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-color: black;
+  text-align: justify;
 }
 
 .background{
@@ -99,6 +97,8 @@ margin-bottom: 5%;
   height: 3px;
   color: black;
   background-color: rgb(121, 121, 121);
+  width: 80%;
+  margin: auto;
 }
 
 .pixel{
