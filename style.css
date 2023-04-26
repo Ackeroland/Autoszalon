@@ -3,6 +3,11 @@
     width: 70px;
 }
 
+.kep2{  
+  height: 800px;
+  
+}
+
 .hatter{
     background-color: black;
 }
@@ -132,4 +137,8 @@ margin-bottom: 5%;
 
 .lineleftwhite{
   border-left: solid 2px white;
+}
+
+a{
+  
 }
