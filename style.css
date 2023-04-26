@@ -173,9 +173,11 @@ h5{
 }
 
 button{
-  background-color: black;
+  background-color: rgb(60, 165, 226);
   color: white;
   border: none;
+  margin-left: 130px;
+  border-radius: 10px;
 }
 
 .title{
@@ -183,8 +185,6 @@ button{
   font-size: 70px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold
-}
-  margin-left: 130px;
 }
 
 .kicsikep{

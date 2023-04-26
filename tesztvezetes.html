@@ -12,9 +12,84 @@
     <link rel="shortcut icon" href="ikon.ico">
 </head>
 
-<body>
+<body style="background-color:white;">
+    <nav class="navbar navbar-expand-lg navbar-light hatter sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="kezdőlap.html"><img class="kep" src="Mercedes-Logo.jpg" alt="Home"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="modellek.html">Modellek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="emodellek.html">Elektromos Modellek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="tech.html">Technologia és Innováció</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="történet.html">Története</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="szervíz.html">Márkaszervíz</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    
+
+    <div class="container">
+        <h2>Személyes adatok</h2>
+        <hr>
+
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Vezetéknév*</label>
+                <input type="text" class="form-control" id="" aria-describedby="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Keresztnév*</label>
+                <input type="text" class="form-control" id="" aria-describedby="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">E-mail*</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Cím*</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Vezetői engedély száma*</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Elfogadom a felhasználói szerződést.</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Feliratkozok a <b>hírlevélre</b>.</label>
+            </div>
+
+            <p>Az Ön magánszférájának védelme a személyes adatok kezelése során a Mercedes-Benz Hungária Kft. (1133
+                Budapest, Váci út 96-98, "MBHu") mint adatkezelő számára kiemelten fontos.</p>
+            <p>Az adatai megadásával és a "KÜLDÉS" gomb megnyomásával Ön hozzájárulását adja ahhoz, hogy a Mercedes-Benz
+                Hungária Kft., valamint a Címzettek köre az Önnel való kapcsolatfelvétel céljából adatait az
+                adatkezelési tájékoztatóban foglaltak szerint kezelje.</p>
+
+            <input type="button" onclick="alert('Köszönjük jelentkezését, e-mailben értesíteni fogjuk a részletekről!')"
+                value="> Küldés" style="background-color: rgb(60, 165, 226); border: none; border-radius: 5px;">
+        </form>
+
+
+    </div>
+
     <div class="row w-100 mx-auto bg-black">
         <br>
         <a class="text-center" href="kezdőlap.html"><img class="logo mx-auto" src="kepek/mercedeslogo.png" alt=""></a>
