@@ -166,4 +166,12 @@ button{
   background-color: black;
   color: white;
   border: none;
+  margin-left: 130px;
 }
+
+.kicsikep{
+  width: 10px;
+  margin-left: 800px;
+  margin-right: 200px;
+}
+
