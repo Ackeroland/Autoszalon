@@ -193,3 +193,11 @@ button{
   margin-right: 200px;
 }
 
+.lineleftfeher{
+  border-left: solid 2px rgb(255, 238, 5);
+  text-align: center;
+}
+
+.linerightfeher{
+  border-right: solid 2px rgb(255, 238, 5);
+}
